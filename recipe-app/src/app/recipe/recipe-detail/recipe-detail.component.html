@@ -15,8 +15,8 @@
       aria-haspopup="true" aria-expanded="false">Manage Recipe <span class="caret"></span></button>
       <ul class="dropdown-menu">
         <li class="dropdown-item"><a (click)="onAddToShoppingList()" style="cursor: pointer">Add Ingredients to Shopping List</a></li>
-        <li class="dropdown-item"><a href="#">Edit Recipe</a></li>
-        <li class="dropdown-item"><a href="#">Delete Recipe</a></li>
+        <li class="dropdown-item" (click)="onEditRecipe()"><a>Edit Recipe</a></li>
+        <li class="dropdown-item"><a>Delete Recipe</a></li>
       </ul>
     </div>
   </div>
